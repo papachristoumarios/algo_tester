@@ -21,6 +21,7 @@ make install INSTALL_PREFIX=~/.local/bin
 
 ## Options
 
+```
 -d directory
 The directory in which the testcases are stored. Default is "tests".
 In the directory the names should be input(whatever)-output(whatever).
@@ -34,6 +35,7 @@ and you might want to avoid them while writing your program.
 -t seconds
 Seconds the tester will wait for each testcase. If the program run for
 at that time, it will be terminated and an appropriate message will be displayed
+```
 
 ## Known Issues
 
@@ -44,3 +46,10 @@ In \*nix use:
 ```
 sed -i 's/\r//g' test_directory/output*
 ```
+
+## Contributors
+
+The following people contributed to the project:
+
+ 1. Konstantinos Ameranis (Original Creator)
+ 2. Marios Papachristou
